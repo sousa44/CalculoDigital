@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <!-- Meta tags Obrigatórias -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Convertor Farenheit</title>
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css"
+        integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+
+    <!--CSS-->
+    <link rel="stylesheet" href="estilo.css">
+    <title>Olá, mundo!</title>
+</head>
+
+<body>
+
+
+
+
+
+
+
+    <header id="cabecalho" class="w-100  p-5"> <!-- inicio cabecalho-->
+
+
+
+
+        <nav id="navegacao" class="navbar navbar-expand-sm">
+
+            <h1 class="display-4">Calculo <span class="digital"> Digital</span></h1>
+
+            <button class="navbar-toggler " data-toggle="collapse" data-target="#navegacaoPrincipal ">
+                <span class="navbar-toggler-icon">
+                    <img src="imagens/toggler.png" width="30px">
+                </span>
+            </button>
+
+
+            <div class="collapse navbar-collapse" id="navegacaoPrincipal">
+
+                <ul class="navbar-nav ml-auto nav-principal">
+
+
+                    <li class="nav-item ">
+                        <a href="index.html.html" class="nav-link"> Home</a>
+
+                    </li>
+
+                    <li class="nav-item">
+                        <a href="" class="nav-link"> Contato</a>
+
+                    </li>
+
+                    <li class="nav-item">
+                        <a href="" class="nav-link"> Sobre</a>
+
+                    </li>
+
+                    <li class="nav-item">
+                        <a href="" class="nav-link"> Calculos</a>
+
+                    </li>
+
+
+
+                </ul>
+
+            </div>
+
+        </nav>
+
+
+
+
+
+
+    </header> <!-- fim cabecalho-->
+
+
+
+
+    <section class=" bg-secondary "> <!-- inicio seção-navegacao-->
+
+        <nav class="nav nav-tabs   h-auto">
+
+            <ul class="nav nav-tabs m-auto">
+                <li class="nav-item mr-2 active">
+                    <a href="verificarCEP.html" class="nav-link btn-outline-primary text-white"> Verificador
+                        CEP</a>
+
+                </li>
+
+                <li class="nav-item mr-2">
+                    <a href="verificadorEmail.html" class="nav-link  btn-outline-primary text-white"> Verificador
+                        Email</a>
+
+                </li>
+
+                <li class="nav-item mr-2">
+                    <a href="convertorFahreinhet.html" class="nav-link  btn-outline-primary text-white active"> Convertor Farenheit</a>
+
+                </li>
+
+                <li class="nav-item mr-2 ">
+                    <a href="convertorDolarParaReal.html" class="nav-link  btn-outline-primary text-white"> Convertor dolar para real</a>
+
+                </li>
+
+
+
+            </ul>
+        </nav>
+
+
+
+
+    </section> <!-- fim secao-navegação-->
+
+
+    <section class="m-auto  mt-2" id="conteudoPrincipal"> <!-- conteudo-pagina-principal-->
+
+        <div class="row">
+
+            <div class="col-md-6 mt-5 ">
+
+                <h1 class=" display-5 ml-3 text-primary">CONVERTOR FARENHEIT</h1>
+
+                <div class="input-group mt-5 input-group-sm">
+
+
+
+                    <input type="text" class=" w-50 ml-3 form-control text-center text-uppercase"
+                        placeholder="DIGITE A TEMPERATURA EM CELSIUS" required id="celsius">
+
+                    <div class="input-group-append">
+                        <span class="input-group-text"><img src="imagens/iconeCelsius.png" width="20px"></span>
+
+                    </div>
+
+
+
+                </div>
+
+                <div class="text-center mt-5 mb-5">
+
+                    <button class="text-uppercase btn btn-outline-light text-dark" onclick="convertorFarenheit()">CONVERTER</button>
+
+                </div>
+
+
+            </div>
+
+
+
+            <div class="col-md-6 mt-5">
+
+                <div class="input-group input-group-lg">
+
+                    <input type="text" class="form-control " placeholder="FARENHEIT" disabled id="resultadoFarenheit">
+
+
+
+                </div>
+
+
+            </div>
+
+
+
+        </div>
+
+
+
+
+
+
+
+    </section> <!-- fim conteudo-pagina-principal -->
+
+    <footer id="rodape" class="m-auto bg-dark"> <!-- inicio rodape-->
+
+        <div class="row justify-content-around mt-5  pb-5">
+
+
+
+            <div class="col-md-2">
+                <button class="navbar-toggler " data-toggle="collapse" data-target="#yotube">
+                    <span class="navbar-toggler-icon">
+                        <img src="imagens/youtube.png" width="30px">
+                    </span>
+                </button>
+
+                <div class="collapse navbar-collapse" id="yotube">
+
+                    <a href="https://www.youtube.com/@rrcode-u3t"
+                        class="youtube">https://www.youtube.com/@rrcode-u3t</a>
+
+
+                </div>
+
+            </div>
+
+
+
+            <div class="col-md-6 display-4 text-white">
+                R<span style="color: red;">&</span>R CODE
+
+            </div>
+
+        </div>
+
+
+
+    </footer> <!-- fim rodape-->
+
+
+
+
+
+
+    <!-- JavaScript (Opcional) -->
+    <!-- jQuery primeiro, depois Popper.js, depois Bootstrap JS -->
+
+    <script src="logica.js">
+
+    </script>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
+        integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
+        integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
