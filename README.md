@@ -9,7 +9,9 @@ O projeto contém os seguintes arquivos e pastas:
 - `index.html.html` — Página inicial do projeto  
 - `logica.js` — Lógica JavaScript para as funcionalidades  
 - `estilo.css` — Estilos do projeto  
-- `imagens/` — Pasta com imagens usadas no projeto  
+- `imagens/` — Pasta com imagens usadas no projeto
+
+  <img src="fotoCalculoDigital.png" width="400px" />
 
 ---
 
